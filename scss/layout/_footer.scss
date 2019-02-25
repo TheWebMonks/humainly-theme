@@ -1,0 +1,90 @@
+/*
+*-------------------------------------------------------------------------------
+* Footer.scss
+*-------------------------------------------------------------------------------
+*/
+
+footer{
+  min-height: 400px;
+  padding: 2rem 0 0 0;
+  background: $light-grey;
+  color: $green;
+
+  .footer-top {
+    padding: 50px 0;
+  }
+
+  .footnote {
+    border-top: 1px solid $grey;
+    color: #a7afb8;
+    margin-top: 50px;
+
+    p {
+      display: inline-block;
+    }
+
+    .small-text {
+      font-size: .813em;
+      margin: .813em 0;
+    }
+
+    ul {
+      float: right;
+
+      li {
+        display: inline-block;
+        margin-left: 20px;
+
+        a {
+            color: inherit;
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 829px){
+  footer{
+    min-height: 400px;
+    padding: 2rem 0 0 0;
+    background: $light-grey;
+    color: $green;
+
+    .footer-top {
+      padding: 50px 0;
+    }
+
+    .footnote {
+      border-top: 1px solid $grey;
+      color: #a7afb8;
+      margin-top: 50px;
+
+      p {
+        display: inline-block;
+      }
+
+      .small-text {
+        font-size: .813em;
+        margin: .813em 0;
+      }
+
+      ul {
+        float: none;
+        padding-left: 0px;
+
+
+        li {
+          display: inline-block;
+          margin-left: 0px;
+          margin-right: 20px;
+
+          a {
+              color: inherit;
+          }
+        }
+      }
+    }
+  }
+
+}
