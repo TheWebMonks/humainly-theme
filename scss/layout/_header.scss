@@ -1,0 +1,118 @@
+/*
+*-------------------------------------------------------------------------------
+* header.scss
+*-------------------------------------------------------------------------------
+*/
+
+header{
+  min-height: 80px;
+  display: flex;
+  background: $green;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+  .logo{
+    margin-top: 15px;
+
+    img{
+      height: 60px;
+    }
+  }
+
+  .head-nav{
+    margin-top: 28px;
+    font-size: 14px;
+    text-align: right;
+    text-transform: uppercase;
+
+    li{
+      padding-left: 35px;
+      display: inline;
+
+      a{
+        color : $white;
+      }
+    }
+  }
+
+
+  .nav-anchor {
+    position: absolute;
+    right: 20px;
+    font-size: 25px;
+    top: 20px;
+    display: none;
+
+    a {
+      color: $white;
+
+      &.clicked {
+        color: $green; }
+     }
+  }
+
+
+}
+
+@media only screen and (max-width: 829px) {
+  header{
+    min-height: 80px;
+    display: flex;
+    background: $green;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+    .logo{
+      margin-top: 15px;
+
+      img{
+        height: 50px;
+      }
+    }
+
+
+
+    .head-nav{
+      // display: none;
+      margin-top: 18px;
+      font-size: 14px;
+      text-align: left;
+      // background: #242b35;
+      padding: 14px 0;
+
+      li{
+        padding-bottom: 30px;
+        display: block;
+
+        a{
+          color : $white;
+        }
+      }
+    }
+
+    .head-nav.mobile{
+      display: none;
+      margin-top: 18px;
+      font-size: 14px;
+      text-align: right;
+
+      li{
+        display: block;
+        clear: left;
+        margin: 0;
+        background-color: inherit;
+        min-height: 48px;
+        overflow: hidden;
+        padding-left:0px;
+      }
+    }
+
+
+    .nav-anchor {
+      display: block;
+     }
+
+  }
+
+  header.mobile{
+    background: #242b35;
+  }
+}
