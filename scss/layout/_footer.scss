@@ -48,15 +48,15 @@ footer{
   footer{
     min-height: 400px;
     padding: 2rem 0 0 0;
-    background: #242b35;
-    color: white;
+    background: $light-grey;
+    color: $green;
 
     .footer-top {
       padding: 50px 0;
     }
 
     .footnote {
-      border-top: 1px solid #2c3541;
+      border-top: 1px solid $grey;
       color: #a7afb8;
       margin-top: 50px;
 

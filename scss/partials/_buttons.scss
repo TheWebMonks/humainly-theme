@@ -4,63 +4,115 @@
 *-------------------------------------------------------------------------------
 */
 
+button,
+.button {
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    height: $button-height;
+    line-height: $button-height;
+    outline: none;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    position: relative;
+    text-decoration: none;
+    -webkit-transition-duration: 250ms;
+    transition-duration: 250ms;
+    -webkit-transition-property: background, box-shadow, color, transform;
+    transition-property: background, box-shadow, color, transform;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    &:hover {
+        box-shadow: 0 2px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.15);
+        -webkit-transform: translateY(-1px);
+        transform: translateY(-1px);
+    }
+    //Styling
+    &--rounded {
+        border-radius: 100px;
+    }
+    &--full {
+        text-align: center;
+        width: 100%;
+    }
+    // Colors
+    &--default,
+    &--default-white {
+        color: $light-blue;
+        position: relative;
+    }
+    &--default-white {
+        background: rgba(255, 255, 255, 0.05);
+        color: rgba(255, 255, 255, 0.88);
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    }
+    &--light {
+        border: solid 1px whitesmoke;
+        color: $dark-blue;
+    }
+    &--red {
+        color: white;
+        background-color: $red;
+        border-color: $red;
+        box-shadow: none;
+    }
 
-.btn-signup{
-  background-color: $green;
-  width: 100px;
-  padding: 20px;
-  min-height: 30px;
-  color: $white;
-  text-transform: uppercase;
-
-  &:hover{
-      color: $white;
-      text-decoration: none;
+    &--black {
+      color: white;
+      background-color: $black;
+      border-color: $black;
+      box-shadow: none;
   }
+
+  &--green {
+    color: white;
+    background-color: $green;
+    border-color: $green;
+    box-shadow: none;
+}
+    &--text {
+        background: none;
+        border: none;
+        color: $light-blue;
+        line-height: auto;
+        height: auto;
+        padding: 0;
+        &:hover {
+            box-shadow: none;
+            text-decoration: underline;
+        }
+    }
+    &--has-svg {
+        svg {
+            display: inline-block;
+            height: 16px;
+            margin-right: 10px;
+            vertical-align: middle;
+            width: 16px;
+        }
+    }
+    //Sizes
+    &--small {
+        height: $button-height-sm;
+        line-height: $button-height-sm;
+    }
+    &--large {
+        border-radius: 6px;
+        font-size: 16px;
+        height: $button-height-lg;
+        line-height: $button-height-lg;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
 }
 
-.btn-black{
-  background-color: $black;
-  width: 100px;
-  padding: 20px;
-  min-height: 30px;
-  color: $white;
-  text-transform: uppercase;
-
-  &:hover{
-      color: $white;
-      text-decoration: none;
-  }
-}
-
-.btn-ghost{
-  border: 1px solid #4b5665;
-  color: $white;
-  padding: 20px;
-  transition: all .5s ease;
-  &:hover{
-      color: $white;
-      text-decoration: none;
-      border: 1px solid $white;
-  }
-}
-
-.btn-red{
-  border: 1px solid $white;
-  background-color: $red;
-  color: $white;
-  padding: 10px;
-  text-transform: uppercase;
-  border-radius:100%;
-  -webkit-border-radius:100%;
-  -moz-border-radius:100%;
-  -ms-border-radius:100%;
-  -o-border-radius:100%;
-  &:hover{
-      color: #4b5665;
-      text-decoration: none;
-      border: 1px solid $white;
-      background-color: $white;
-
-  }
-}

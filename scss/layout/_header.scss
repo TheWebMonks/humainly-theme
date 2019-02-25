@@ -19,9 +19,10 @@ header{
   }
 
   .head-nav{
-    margin-top: 38px;
+    margin-top: 28px;
     font-size: 14px;
     text-align: right;
+    text-transform: uppercase;
 
     li{
       padding-left: 35px;
@@ -38,7 +39,7 @@ header{
     position: absolute;
     right: 20px;
     font-size: 25px;
-    top: 30px;
+    top: 20px;
     display: none;
 
     a {
@@ -56,14 +57,14 @@ header{
   header{
     min-height: 80px;
     display: flex;
-    background: none;
+    background: $green;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 
     .logo{
-      margin-top: 30px;
+      margin-top: 15px;
 
       img{
-        height: 30px;
+        height: 50px;
       }
     }
 
@@ -71,7 +72,7 @@ header{
 
     .head-nav{
       // display: none;
-      margin-top: 38px;
+      margin-top: 18px;
       font-size: 14px;
       text-align: left;
       // background: #242b35;
@@ -89,7 +90,7 @@ header{
 
     .head-nav.mobile{
       display: none;
-      margin-top: 38px;
+      margin-top: 18px;
       font-size: 14px;
       text-align: right;
 
