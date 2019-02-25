@@ -1,0 +1,66 @@
+/*
+*-------------------------------------------------------------------------------
+* buttons.scss
+*-------------------------------------------------------------------------------
+*/
+
+
+.btn-signup{
+  background-color: $green;
+  width: 100px;
+  padding: 20px;
+  min-height: 30px;
+  color: $white;
+  text-transform: uppercase;
+
+  &:hover{
+      color: $white;
+      text-decoration: none;
+  }
+}
+
+.btn-black{
+  background-color: $black;
+  width: 100px;
+  padding: 20px;
+  min-height: 30px;
+  color: $white;
+  text-transform: uppercase;
+
+  &:hover{
+      color: $white;
+      text-decoration: none;
+  }
+}
+
+.btn-ghost{
+  border: 1px solid #4b5665;
+  color: $white;
+  padding: 20px;
+  transition: all .5s ease;
+  &:hover{
+      color: $white;
+      text-decoration: none;
+      border: 1px solid $white;
+  }
+}
+
+.btn-red{
+  border: 1px solid $white;
+  background-color: $red;
+  color: $white;
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius:100%;
+  -webkit-border-radius:100%;
+  -moz-border-radius:100%;
+  -ms-border-radius:100%;
+  -o-border-radius:100%;
+  &:hover{
+      color: #4b5665;
+      text-decoration: none;
+      border: 1px solid $white;
+      background-color: $white;
+
+  }
+}
