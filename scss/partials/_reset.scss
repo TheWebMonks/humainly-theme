@@ -1,0 +1,45 @@
+/*
+*-------------------------------------------------------------------------------
+* reset.scss
+*-------------------------------------------------------------------------------
+*/
+.c-nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+
+  li {
+    position: relative;
+    display: block;
+
+    a {
+      position: relative;
+      display: block;
+      padding: 10px 15px;
+
+      &:hover{
+        text-decoration: none;
+        background-color: #fff;
+        border-bottom: 2px solid $green;
+      }
+
+      &:focus{
+        text-decoration: none;
+      }
+
+  }
+
+
+
+
+  }
+
+}
+
+.push-b{
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.push-m{
+  margin-bottom: 50px;
+}

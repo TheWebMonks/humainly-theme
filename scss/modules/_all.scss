@@ -1,0 +1,276 @@
+/*
+*-------------------------------------------------------------------------------
+* all.scss
+*-------------------------------------------------------------------------------
+*/
+
+#intro{
+  margin-top: 0;
+  position: relative;
+  height: 600px;
+  // background-image: url("../img/ban.jpg");
+  background-size:cover;
+  background-position:center center;
+  background-repeat: no-repeat;
+
+  .hero{
+    width: 100%;
+    height: 100%;
+
+    img{
+      width: auto;
+      height: auto;
+    }
+  }
+
+  .tint{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .text{
+    visibility: visible;
+    animation-delay: 1s;
+    animation-name: fadeIn;
+    text-align: left;
+    color: $dark-g;
+    margin-top: 150px;
+
+    h1{
+      font-weight: 500;
+      font-size: 4.5em;
+      color: $dark-g;
+    }
+
+    p{
+      color: #ccc;
+    }
+  }
+
+
+}
+
+
+@media only screen and (max-width: 829px) {
+  #intro{
+    margin-top: 0;
+    position: relative;
+    height: 450px;
+    background-image: url("../img/ban.jpg");
+    background-size:cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+
+    .tint{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .text{
+      visibility: visible;
+      animation-delay: 1s;
+      animation-name: fadeIn;
+      text-align: center;
+      color: $white;
+      margin-top: 60px;
+    }
+
+
+  }
+
+}
+
+.panes {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  color: white;
+  z-index: 0;
+}
+
+.more{
+  margin-top: 50px;
+  margin-bottom: 10em;
+
+  .title{
+    text-align: center;
+
+    h1{
+      margin-bottom: 50px;
+    }
+  }
+
+  i{
+    font-size: 35px;
+  }
+
+  p{
+    color: #787d83;
+  }
+
+  .mar-50{
+    margin-bottom: 50px;
+    border-bottom: 1px solid #eee;
+
+
+    .active{
+      border-bottom: 2px solid $green;
+      color: $green;
+
+      &:hover{
+        border-bottom: 0px solid $green;
+      }
+
+    }
+
+    a{
+      color: #787d83;
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+
+
+  }
+}
+
+
+@media only screen and (max-width: 829px) {
+  .more{
+    margin-top: 50px;
+    margin-bottom: 10em;
+
+    .title{
+      text-align: center;
+
+      h1{
+        margin-bottom: 50px;
+        font-size: 30px;
+      }
+    }
+  }
+
+}
+
+
+
+
+.inter{
+  background-color: $dark-g;
+  color: $grey;
+  min-height: 400px;
+  padding: 80px 0;
+
+  a{
+    text-transform: uppercase;
+  }
+
+  .section-intro{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+
+    h1{
+      color: $white;
+      font-family: 'Bree Serif', serif;
+    }
+  }
+
+  .illustration {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.overview{
+  background-color: $white;
+  min-height: 300px;
+  padding: 80px 0;
+  text-align: center;
+
+  img{
+    width: 60px;
+    height: auto;
+  }
+}
+
+.annotation{
+  background-color: $main-grey;
+  min-height: 300px;
+  padding: 80px 0;
+
+  img{
+    width: 60px;
+    height: auto;
+  }
+}
+
+
+.customer{
+  background-color: $main-grey;
+  min-height: 300px;
+  padding: 80px 0;
+
+  .testimonial{
+
+    .photo {
+      background-color: #e9e9e9;
+      border: 1px solid #e9e9e9;
+      width: 100px;
+      height: 100px;
+      border-radius: 100%;
+      margin: 0 auto;
+      margin-bottom: 35px;
+
+      img {
+          max-width: 100%;
+          border-radius: 100%;
+      }
+    }
+
+    .quote {
+      font-size: 18px;
+      color: #3d3f42;
+      margin-bottom: 30px;
+      line-height: 150%;
+    }
+
+    .name {
+      margin-bottom: 3px;
+    }
+
+    .title {
+      font-size: 14px;
+    }
+  }
+}
+
+.media {
+    padding: 40px 0;
+    background-color: $light-grey;
+
+    img{
+      height: 80px;
+    }
+}
+
+@media only screen and (max-width: 829px) {
+  .media{
+    display: none;
+
+  }
+}
+
+
+.try{
+  background-color: $grey;
+  min-height: 300px;
+}
