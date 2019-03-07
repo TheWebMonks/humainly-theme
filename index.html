@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
 
     <title>Humainly</title>
-    <link rel="stylesheet" href="css/main.css" media="screen">
-    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/main.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="screen" title="no title">
 
@@ -76,21 +76,24 @@
     <!-- media -->
     <section class="media text-center ">
             <div class="container">
-              <div class="col-xs-3">
-                <img src="img/nvidia.svg" width="130" class="media-logo" alt="">
+              <div class="row">
+                  <div class="col-md-3">
+                      <img src="img/nvidia.svg" width="130" class="media-logo" alt="">
+                    </div>
+      
+                    <div class="col-md-3">
+                      <img src="img/nvidia.svg" width="130" class="media-logo" alt="">
+                    </div>
+      
+                    <div class="col-md-3">
+                      <img src="img/nvidia.svg" width="130" class="media-logo" alt="">
+                    </div>
+      
+                    <div class="col-md-3">
+                      <img src="img/nvidia.svg" width="130" class="media-logo" alt="">
+                    </div>
               </div>
-
-              <div class="col-xs-3">
-                <img src="img/nvidia.svg" width="130" class="media-logo" alt="">
-              </div>
-
-              <div class="col-xs-3">
-                <img src="img/nvidia.svg" width="130" class="media-logo" alt="">
-              </div>
-
-              <div class="col-xs-3">
-                <img src="img/nvidia.svg" width="130" class="media-logo" alt="">
-              </div>
+              
             </div>
           </section>
 
@@ -128,21 +131,21 @@
         <div class="col-md-4">
           <div class="box-item">
             <img src="img/start.svg" alt="" />
-            <h3>Run a Project / One-and-Done</h3>
+            <h3 class="t-padding-sm">Run a Project / One-and-Done</h3>
             <span>Have a fixed bunch of data you need to have meticulously annotated? We offer flexible one-and-done type of agreements. </span>
           </div>
         </div>
         <div class="col-md-4">
             <div class="box-item">
                 <img src="img/pipeline.svg" alt="" />
-            <h3>Run a Pipeline / Subscription </h3>
+            <h3 class="t-padding-sm">Run a Pipeline / Subscription </h3>
             <span>Have a continuous stream of data you need to have annotated, always in the same way? A subscription to our service might offer you the best bang for your buck.  </span>
                     </div>
         </div>
         <div class="col-md-4">
             <div class="box-item">
-                <img src="img/collaboration.svg" alt="" />
-            <h3>Run a Team / Hire Fixed Team</h3>
+                <img  src="img/collaboration.svg" alt="" />
+            <h3 class="t-padding-sm">Run a Team / Hire Fixed Team</h3>
             <span>Your annotation protocols may vary but you prefer a team of annotators to work with? We can assign a fixed annotator team to your project managers.             </span>
           </div>
         </div>
@@ -206,89 +209,93 @@
         <div class="center b-padding l-padding r-padding">
           <h1 class="c-dark">Our Approach</h1>
         </div>
-
-        <div class="col-lg-10 col-lg-push-1 col-md-10 col-md-push-1 col-sm-10 col-sm-push-1">
-          <div class="row">
-
-              <!-- Tab -->
-              <div>
-
-                    <!-- Nav tabs -->
-                    <ul class="c-nav nav-justified mar-50" role="tablist">
-                      <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Customer Journey</a></li>
-                      <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Quality control</a></li>
-                      <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">AI assistance</a></li>
-                    </ul>
-
-                    <!-- Tab panes -->
-                    <div class="tab-content">
-                      <!-- Customer Journey -->
-                      <div role="tabpanel" class="tab-pane active" id="home">
-                          <div class="row">
-                            <div class="col-md-6">
-                                <div class="">
-                                  <h2>Customer Journey</h2>
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+              <div class="row">
+    
+                  <!-- Tab -->
+                  <div>
+    
+                        <!-- Nav tabs -->
+                        <nav class="nav  nav-fill mar-50" role="tablist">
+                            <a class="nav-item nav-link active" href="#home" aria-controls="home" role="tab" data-toggle="tab">Customer Journey</a>
+                            <a class="nav-item nav-link" href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Quality control</a>
+                            <a class="nav-item nav-link" href="#messages" aria-controls="messages" role="tab" data-toggle="tab">AI assistance</a>
+                          </nav>
+    
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                          <!-- Customer Journey -->
+                          <div role="tabpanel" class="tab-pane active" id="home">
+                              <div class="row">
+                                <div class="col-md-6">
+                                    <div class="">
+                                      <h2>Customer Journey</h2>
+                                      <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam temporibus rerum exercitationem perferendis, aspernatur at? Quos, dolores debitis, odio libero dignissimos repellat, nihil vero unde veniam ab nemo accusantium dolor!
+                                      </p>
+                                    </div>
+                                    <div class="push-b">
+                                      <a href="#" class=" button button--red button--rounded">Learn more</a>
+                                    </div>
+                                </div>
+    
+                                <div class="col-md-6">
+                                    <img src="#" class="img-responsive" alt="Humainly customer Journet" />
+                                </div>
+                              </div>
+                          </div>
+    
+                          <!-- Quality control -->
+                          <div role="tabpanel" class="tab-pane" id="profile">
+                            <div class="row">
+                              <div class="col-md-6">
+                                  <h2>Quality control</h2>
                                   <p>
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam temporibus rerum exercitationem perferendis, aspernatur at? Quos, dolores debitis, odio libero dignissimos repellat, nihil vero unde veniam ab nemo accusantium dolor!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptates inventore doloribus magni laboriosam eveniet ab vero repudiandae dignissimos saepe, sed iste nemo quaerat qui recusandae voluptatum quo eum blanditiis.
                                   </p>
-                                </div>
-                                <div class="push-b">
-                                  <a href="#" class=" button button--red button--rounded">Learn more</a>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <img src="#" class="img-responsive" alt="Humainly customer Journet" />
-                            </div>
-                          </div>
-                      </div>
-
-                      <!-- Quality control -->
-                      <div role="tabpanel" class="tab-pane" id="profile">
-                        <div class="row">
-                          <div class="col-md-6">
-                              <h2>Quality control</h2>
-                              <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptates inventore doloribus magni laboriosam eveniet ab vero repudiandae dignissimos saepe, sed iste nemo quaerat qui recusandae voluptatum quo eum blanditiis.
-                              </p>
-
-                              <div class="push-b">
-                                <a href="#" class=" button button--red button--rounded">Learn more</a>
+    
+                                  <div class="push-b">
+                                    <a href="#" class=" button button--red button--rounded">Learn more</a>
+                                  </div>
                               </div>
-                          </div>
-
-                          <div class="col-md-6">
-                              <img src="" class="img-responsive" alt="Humainly quality control" />
-                          </div>
-                        </div>
-                      </div>
-
-                      <!-- AI Assistance -->
-                      <div role="tabpanel" class="tab-pane" id="messages">
-                        <div class="row">
-                          <div class="col-md-6">
-                              <h2>AI Assistance</h2>
-                              <p>
-                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas itaque, rem expedita asperiores debitis sit culpa. Nam, eum quasi, laudantium facere, cumque dolorum labore hic temporibus voluptatum rerum accusantium. Fugit?
-                              </p>
-
-                              <div class="push-b">
-                                <a href="#" class=" button button--red button--rounded">Learn more</a>
+    
+                              <div class="col-md-6">
+                                  <img src="" class="img-responsive" alt="Humainly quality control" />
                               </div>
+                            </div>
                           </div>
-
-                          <div class="col-md-6">
-                              <img src="#" class="img-responsive" alt="Humainly AI assistance" />
+    
+                          <!-- AI Assistance -->
+                          <div role="tabpanel" class="tab-pane" id="messages">
+                            <div class="row">
+                              <div class="col-md-6">
+                                  <h2>AI Assistance</h2>
+                                  <p>
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas itaque, rem expedita asperiores debitis sit culpa. Nam, eum quasi, laudantium facere, cumque dolorum labore hic temporibus voluptatum rerum accusantium. Fugit?
+                                  </p>
+    
+                                  <div class="push-b">
+                                    <a href="#" class=" button button--red button--rounded">Learn more</a>
+                                  </div>
+                              </div>
+    
+                              <div class="col-md-6">
+                                  <img src="#" class="img-responsive" alt="Humainly AI assistance" />
+                              </div>
+                            </div>
                           </div>
+    
                         </div>
+    
                       </div>
-
-                    </div>
-
-                  </div>
-
-          </div>
+    
+              </div>
+            </div>
+            <div class="col-lg-1"></div>
         </div>
+       
 
       </div>
   </section>
@@ -300,55 +307,55 @@
         <div class="row">
 
             <div class="col-md-4  text-center testimonial">
-              <div class="box-item">
+                <div class="box-item">
+  
+                    <div class="photo">
+                        <img src="img/close/dominic-blouin.jpg?" width="98" height="98" alt="Dominic Blouin">
+                      </div>
+                      
+                  <p class="quote">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae laudantium laborum odit totam, omnis voluptas natus, explicabo, vero corporis atque sapiente odio alias dolor illum quo unde cumque rem sint.
+                    </p>
+                    <h5 class="name">Dominic Somedid</h5>
+                    <p class="title">Co-Founder &amp; President of Company A</p>
+                    <img src="img/close/dev-id-logo-gray.png" height="25" width="25" alt="DevID">
+                </div>
+               
+                </div>
 
-                  <div class="photo">
-                      <img src="img/close/dominic-blouin.jpg?" width="98" height="98" alt="Dominic Blouin">
+                <div class="col-md-4  text-center testimonial">
+                    <div class="box-item">
+      
+                        <div class="photo">
+                            <img src="img/close/dominic-blouin.jpg?" width="98" height="98" alt="Dominic Blouin">
+                          </div>
+                          
+                      <p class="quote">
+                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae laudantium laborum odit totam, omnis voluptas natus, explicabo, vero corporis atque sapiente odio alias dolor illum quo unde cumque rem sint.
+                        </p>
+                        <h5 class="name">Dominic Somedid</h5>
+                        <p class="title">Co-Founder &amp; President of Company A</p>
+                        <img src="img/close/dev-id-logo-gray.png" height="25" width="25" alt="DevID">
                     </div>
-                    
-                <p class="quote">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae laudantium laborum odit totam, omnis voluptas natus, explicabo, vero corporis atque sapiente odio alias dolor illum quo unde cumque rem sint.
-                  </p>
-                  <h5 class="name">Dominic Blouin</h5>
-                  <p class="title">Co-Founder &amp; President of Dev-ID</p>
-                  <img src="img/close/dev-id-logo-gray.png" height="25" width="25" alt="DevID">
-              </div>
-             
-              </div>
+                   
+                    </div>
 
-              <div class="col-md-4  text-center testimonial">
-                  <div class="box-item">
-    
-                      <div class="photo">
-                          <img src="img/close/dominic-blouin.jpg?" width="98" height="98" alt="Dominic Blouin">
+                    <div class="col-md-4  text-center testimonial">
+                        <div class="box-item">
+          
+                            <div class="photo">
+                                <img src="img/close/dominic-blouin.jpg?" width="98" height="98" alt="Dominic Blouin">
+                              </div>
+                              
+                          <p class="quote">
+                              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae laudantium laborum odit totam, omnis voluptas natus, explicabo, vero corporis atque sapiente odio alias dolor illum quo unde cumque rem sint.
+                            </p>
+                            <h5 class="name">Dominic Somedid</h5>
+                            <p class="title">Co-Founder &amp; President of Company A</p>
+                            <img src="img/close/dev-id-logo-gray.png" height="25" width="25" alt="DevID">
                         </div>
-                        
-                    <p class="quote">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae laudantium laborum odit totam, omnis voluptas natus, explicabo, vero corporis atque sapiente odio alias dolor illum quo unde cumque rem sint.
-                      </p>
-                      <h5 class="name">Dominic Blouin</h5>
-                      <p class="title">Co-Founder &amp; President of Dev-ID</p>
-                      <img src="img/close/dev-id-logo-gray.png" height="25" width="25" alt="DevID">
-                  </div>
-                 
-                  </div>
-
-                  <div class="col-md-4  text-center testimonial">
-                      <div class="box-item">
-        
-                          <div class="photo">
-                              <img src="img/close/dominic-blouin.jpg?" width="98" height="98" alt="Dominic Blouin">
-                            </div>
-                            
-                        <p class="quote">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae laudantium laborum odit totam, omnis voluptas natus, explicabo, vero corporis atque sapiente odio alias dolor illum quo unde cumque rem sint.
-                          </p>
-                          <h5 class="name">Dominic Blouin</h5>
-                          <p class="title">Co-Founder &amp; President of Dev-ID</p>
-                          <img src="img/close/dev-id-logo-gray.png" height="25" width="25" alt="DevID">
-                      </div>
-                     
-                      </div>
+                       
+                        </div>
 
         </div>
         
@@ -365,8 +372,8 @@
 
               <div class="push-b">
                 <ul class="list-inline">
-                  <li><a href="#" class=" button button--red button--rounded">Try Humainly free</a></li>
-                  <li><a href="#" class=" button button--black button--rounded">Email Support</a></li>
+                  <li class="list-inline-item"><a href="#" class=" button button--red button--rounded">Try Humainly free</a></li>
+                  <li class="list-inline-item"><a href="#" class=" button button--black button--rounded">Email Support</a></li>
                 </ul>
 
               </div>
@@ -385,8 +392,9 @@
     </div>
   </footer>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="js/main.js" type="text/javascript"></script>
 
   </body>
