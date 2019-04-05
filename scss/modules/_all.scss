@@ -12,6 +12,8 @@
   background-size:cover;
   background-position:center center;
   background-repeat: no-repeat;
+  background-color: #fafafa;
+  padding-bottom: 50px;
 
   .hero{
     width: 100%;
@@ -19,7 +21,8 @@
 
     img{
       width: auto;
-      height: auto;
+      max-height: 500px;
+      margin-top: 100px;
     }
   }
 
@@ -208,7 +211,7 @@
   padding: 80px 0;
 
   img{
-    width: 60px;
+    width: 100%;
     height: auto;
   }
 }
@@ -255,7 +258,8 @@
 
 .media {
     padding: 40px 0;
-    background-color: $light-grey;
+    background-color: $white;
+    border: 1px solid  $light-grey;
 
     img{
       height: 80px;
