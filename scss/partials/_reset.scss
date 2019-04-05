@@ -43,3 +43,16 @@
 .push-m{
   margin-bottom: 50px;
 }
+
+@media only screen and (max-width: 829px) {
+
+  .push-b{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .push-m{
+    margin-bottom: 50px;
+  }
+  
+
+}
