@@ -13,7 +13,7 @@ button,
     cursor: pointer;
     display: inline-block;
     font-family: inherit;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     height: $button-height;
     line-height: $button-height;
@@ -36,6 +36,8 @@ button,
         box-shadow: 0 2px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.15);
         -webkit-transform: translateY(-1px);
         transform: translateY(-1px);
+        color: #fff;
+        text-decoration: none;
     }
     //Styling
     &--rounded {
