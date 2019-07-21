@@ -365,6 +365,7 @@ header {
 *-------------------------------------------------------------------------------
 */
 footer {
+  margin-bottom: 5em !important;
   min-height: 100px;
   padding: 1rem 0 0 0;
   background: #fff;
@@ -387,33 +388,6 @@ footer {
         margin-left: 20px; }
         footer .footnote ul li a {
           color: inherit; }
-
-@media only screen and (max-width: 829px) {
-  footer {
-    min-height: 400px;
-    padding: 2rem 0 0 0;
-    background: #f7f9fa;
-    color: #00B796; }
-    footer .footer-top {
-      padding: 50px 0; }
-    footer .footnote {
-      border-top: 1px solid #c9ced5;
-      color: #a7afb8;
-      margin-top: 50px; }
-      footer .footnote p {
-        display: inline-block; }
-      footer .footnote .small-text {
-        font-size: .813em;
-        margin: .813em 0; }
-      footer .footnote ul {
-        float: none;
-        padding-left: 0px; }
-        footer .footnote ul li {
-          display: inline-block;
-          margin-left: 0px;
-          margin-right: 20px; }
-          footer .footnote ul li a {
-            color: inherit; } }
 
 /* Partials */
 /*
