@@ -8,18 +8,21 @@ h1,
 h2,
 h3,
 h4,
-h5{
-    font-family: 'Russo One', sans-serif !important;
+h5 {
+	font-family: 'Russo One', sans-serif !important;
 }
 
 p,
 span,
 li,
-a{
-    font-family: 'Open Sans', sans-serif !important;
+a {
+	font-family: 'Open Sans', sans-serif !important;
 }
 
-.c-dark{
-    color: $dark-g;
+.c-dark {
+	color: $dark-g;
 }
 
+.c-light {
+	color: $white;
+}
