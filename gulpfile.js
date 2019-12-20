@@ -37,7 +37,8 @@ function copy() {
     return gulp.src('*.html').pipe(gulp.dest('./dist/'))
       .pipe(gulp.src('./img/**/*')).pipe(gulp.dest('./dist/img/'))
       .pipe(gulp.src('./js/**/*')).pipe(gulp.dest('./dist/js/'))
-      .pipe(gulp.src('./style/**/*')).pipe(gulp.dest('./dist/style/'));
+      .pipe(gulp.src('./style/**/*')).pipe(gulp.dest('./dist/style/'))
+      .pipe(gulp.src('./recruit/**/*')).pipe(gulp.dest('./dist/recruit/'));
 }
 
 exports.style = style;
