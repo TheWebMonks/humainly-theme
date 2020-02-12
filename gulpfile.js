@@ -38,7 +38,8 @@ function copy() {
       .pipe(gulp.src('./img/**/*')).pipe(gulp.dest('./dist/img/'))
       .pipe(gulp.src('./js/**/*')).pipe(gulp.dest('./dist/js/'))
       .pipe(gulp.src('./style/**/*')).pipe(gulp.dest('./dist/style/'))
-      .pipe(gulp.src('./recruit/**/*')).pipe(gulp.dest('./dist/recruit/'));
+      .pipe(gulp.src('./recruit/**/*')).pipe(gulp.dest('./dist/recruit/'))
+      .pipe(gulp.src('./humains/**/*')).pipe(gulp.dest('./dist/humains/'));
 }
 
 exports.style = style;
